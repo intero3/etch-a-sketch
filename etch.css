@@ -58,3 +58,21 @@ div{
     border: 1px solid black;
 }
 
+.randomColor{
+    display: inline-block;
+    background-color:#FFFFFF;
+    border-radius: 0.12em;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    font-family:'Roboto',sans-serif;
+    color:#000000;
+    font-weight:300;
+    text-decoration:none;
+    margin: 0;
+    text-align:center;
+    transition: all 0.15s;
+    position: absolute;
+    top: 20%;
+    -ms-transform: translateY(-30%);
+    transform: translateY(-30%);
+}

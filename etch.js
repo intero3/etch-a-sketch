@@ -8,6 +8,7 @@ button.className = "resetButton";
 body.append(button);
 
 colorButton.textContent = 'Random Color';
+colorButton.classList.add('randomColor');
 body.append(colorButton);
 
 
